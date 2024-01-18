@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "label": "Entrez les délais",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0wplnp4",
+        "columns": null
+      },
+      "id": "Field_1nxopug",
+      "key": "textfield_iz7t0m",
+      "description": "Les délais doivent ètre entre 10 et 200 jours",
+      "properties": {}
+    },
+    {
+      "values": [
+        {
+          "label": "djean",
+          "value": "djean"
+        },
+        {
+          "label": "velour",
+          "value": "value2"
+        },
+        {
+          "label": "satin",
+          "value": "value3"
+        },
+        {
+          "label": "jersey",
+          "value": "value4"
+        }
+      ],
+      "label": "Choisissez le tissu",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1kjnk4w",
+        "columns": null
+      },
+      "id": "Field_16k0850",
+      "key": "radio_li28hs"
+    },
+    {
+      "label": "Entrez la taille",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1wea0rc",
+        "columns": null
+      },
+      "id": "Field_0d5le1v",
+      "key": "textfield_ob1845",
+      "description": "Les tailles disponibles: S,M,L,XL,XXL"
+    },
+    {
+      "label": "Entrez la quantité demandée",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_067rru3",
+        "columns": null
+      },
+      "id": "Field_0urrrub",
+      "key": "textfield_c3zrj"
+    }
+  ],
+  "type": "default",
+  "id": "Commande_form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

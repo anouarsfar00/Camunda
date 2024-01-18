@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Français",
+          "value": "1"
+        },
+        {
+          "label": "Anglais",
+          "value": "2"
+        },
+        {
+          "label": "Informatique",
+          "value": "3"
+        },
+        {
+          "label": "Mathématiques",
+          "value": "4"
+        },
+        {
+          "label": "Physique",
+          "value": "5"
+        },
+        {
+          "label": "Arabe",
+          "value": "6"
+        }
+      ],
+      "label": "choisir la matière à réviser",
+      "type": "radio",
+      "layout": {
+        "row": "Row_10rzcrv",
+        "columns": null
+      },
+      "id": "Field_16sro8e",
+      "key": "radio_a0dhyr",
+      "defaultValue": "<none>"
+    },
+    {
+      "label": "saisir la durée",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15uszzt",
+        "columns": null
+      },
+      "id": "Field_1hsoo34",
+      "key": "textfield_qb1pzq",
+      "description": "entrer la date de début et la date de fin de révisio de cette matière"
+    }
+  ],
+  "type": "default",
+  "id": "formID",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

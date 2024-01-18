@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "label": "Entrer la date",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1aoija9",
+        "columns": null
+      },
+      "id": "Field_1o1o73c",
+      "key": "textfield_ki9sv",
+      "description": "les dates des vacances"
+    },
+    {
+      "label": "Entrer l'occasion",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_17rf6of",
+        "columns": null
+      },
+      "id": "Field_0gpgawu",
+      "key": "textfield_fl3u7q",
+      "description": "les raisons des vacances"
+    }
+  ],
+  "type": "default",
+  "id": "Form1ID",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

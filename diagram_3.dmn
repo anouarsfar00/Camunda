@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_01omk6z" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.17.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.20.0">
+  <decision id="Decision_1g0htd0" name="Decision 1">
+    <decisionTable id="DecisionTable_0ku291o">
+      <input id="Input_1" biodi:width="192">
+        <inputExpression id="InputExpression_1" typeRef="integer">
+          <text>nombre</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_17pmir3" label="jour">
+        <inputExpression id="LiteralExpression_1xeelbg" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="avtivité" typeRef="string" biodi:width="192">
+        <outputValues id="UnaryTests_1cyi62k">
+          <text>"révéser","se plaisir"</text>
+        </outputValues>
+      </output>
+      <rule id="DecisionRule_0g1mzdg">
+        <inputEntry id="UnaryTests_0x05v1p">
+          <text>5</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1cih7ia">
+          <text>"monday"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1yzr2iv">
+          <text>"révéser"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0nmeiox">
+        <inputEntry id="UnaryTests_145k4i6">
+          <text>3</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1h92tfl">
+          <text>"tuesday"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0de6kot">
+          <text>"se plaisir"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_14uapxo">
+        <inputEntry id="UnaryTests_1i51sjx">
+          <text>15</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_04lzeev">
+          <text>"thursday"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_06jgwil">
+          <text>"se plaisir"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0sqeg8t">
+        <inputEntry id="UnaryTests_01ysraf">
+          <text>8</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1o7vh72">
+          <text>"friday"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1cme961">
+          <text>"révéser"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_1g0htd0">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

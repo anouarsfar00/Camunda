@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="sample1" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.17.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.20.0">
+  <decision id="sampleID" name="organiser les vacances">
+    <decisionTable id="DecisionTable_1lfbru4">
+      <input id="Input_1" label="Date" biodi:width="192" camunda:inputVariable="date">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_081o3d4" label="Occasion" biodi:width="192">
+        <inputExpression id="LiteralExpression_1idgjtl" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Activité" typeRef="string" biodi:width="192">
+        <outputValues id="UnaryTests_1ogm2z5">
+          <text>"se  plaisir","réviser"</text>
+        </outputValues>
+      </output>
+      <rule id="DecisionRule_1c6ohzb">
+        <inputEntry id="UnaryTests_1u6er7n">
+          <text>"2023-07-26"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_08zbz5b">
+          <text>"Al Mawled Ennabaoui Acharif"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1900e27">
+          <text>"se  plaisir"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_09i9cqk">
+        <inputEntry id="UnaryTests_18j6yd6">
+          <text>"2023-10-15"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ygrofr">
+          <text>"Journée d'évacuation"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0qoq61q">
+          <text>"réviser"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1bcwq7r">
+        <inputEntry id="UnaryTests_19j0msf">
+          <text>"2023-10-30"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0vjfkw9">
+          <text>"vacances du 1er semestre"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1xg8c6u">
+          <text>"réviser"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1av2lyj">
+        <inputEntry id="UnaryTests_00s0e7t">
+          <text>"2023-12-17 --&gt; 2024-01-01"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1098hf2">
+          <text>"vacances d'hiver"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_121v9j1">
+          <text>"se  plaisir"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_17vlkgo">
+        <inputEntry id="UnaryTests_1ay3y7x">
+          <text>"2024-02-05 --&gt; 2024-02-11"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1oea1wc">
+          <text>"vacances du 2ème semestre"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1uzoigb">
+          <text>"réviser"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_12biyov">
+        <inputEntry id="UnaryTests_0780pz2">
+          <text>"2024-03-18 --&gt; 2024-03-31"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1it6hy5">
+          <text>"vacances de printemps"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_13blqcm">
+          <text>"se  plaisir"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0yh9uj8">
+        <inputEntry id="UnaryTests_0cwupnp">
+          <text>"2024-04-09"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1hgring">
+          <text>"journée de martyrs"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1n8s7j7">
+          <text>"réviser"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_01vihiu">
+        <inputEntry id="UnaryTests_180xws7">
+          <text>"2024-04-09 --&gt; 2024-04-11"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1capgg1">
+          <text>"Aid al-Fitr"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0hplgtd">
+          <text>"se  plaisir"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_12gmh80">
+        <inputEntry id="UnaryTests_0g14fv1">
+          <text>"2024-05-01"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1l6r15p">
+          <text>"fete du travail"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_16eqy6c">
+          <text>"réviser"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1ovrux9">
+        <inputEntry id="UnaryTests_02uhxjk">
+          <text>"2024-06-16 --&gt; 2024-06-09"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1tmubyw">
+          <text>"Aid al-Adha"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0z0f9bh">
+          <text>"se  plaisir"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="sampleID">
+        <dc:Bounds height="80" width="180" x="159" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
